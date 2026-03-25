@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Glyph J</title>
+</head>
+<body>
+<script>
+const J = [
+  [0,0,1,1,1,1,0,0],
+  [0,0,0,0,1,0,0,0],
+  [0,0,0,0,1,0,0,0],
+  [0,0,0,0,1,0,0,0],
+  [1,0,0,0,1,0,0,0],
+  [1,0,0,0,1,0,0,0],
+  [0,1,1,1,0,0,0,0],
+  [0,0,0,0,0,0,0,0]
+];
+
+function renderGlyph(matrix) {
+  if (window.nothing) {
+    window.nothing.glyph.setMatrix(matrix);
+  }
+}
+
+renderGlyph(J);
+</script>
+</body>
+</html>
